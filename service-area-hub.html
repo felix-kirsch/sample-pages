@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roofing in the Fraser Valley | Top Notch Roofing</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{--green:#1D9E75;--green-dark:#0F6E56;--green-light:#E1F5EE;--text:#1a1a1a;--muted:#5a5a5a;--border:#e5e5e5;--bg:#f9f9f7;}
+body{font-family:'DM Sans',sans-serif;color:var(--text);background:#fff;font-size:16px;line-height:1.7;}
+.topnav{position:absolute;top:0;left:0;right:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:18px 48px;}
+.logo{font-family:'DM Serif Display',serif;font-size:22px;color:white;}
+.nav-links{display:flex;gap:28px;font-size:13px;color:rgba(255,255,255,0.85);}
+.hero{position:relative;min-height:500px;display:flex;align-items:center;overflow:hidden;background:linear-gradient(150deg,#0a2018,#1a4a35 60%,#0F6E56);}
+.hero-inner{position:relative;z-index:2;max-width:860px;margin:0 auto;padding:110px 48px 60px;width:100%;}
+.breadcrumb{font-size:12px;color:rgba(255,255,255,0.5);margin-bottom:12px;}
+h1{font-family:'DM Serif Display',serif;font-size:44px;color:white;line-height:1.15;margin-bottom:16px;}
+.hero p{font-size:16px;color:rgba(255,255,255,0.8);max-width:600px;line-height:1.7;}
+h2{font-family:'DM Serif Display',serif;font-size:32px;margin-bottom:16px;}
+h3{font-size:15px;font-weight:500;margin-bottom:6px;}
+p{color:var(--muted);font-size:14px;line-height:1.8;margin-bottom:14px;}
+p.lead{font-size:16px;}
+.section{padding:64px 48px;max-width:860px;margin:0 auto;}
+.section-full{padding:64px 48px;}
+.section-full .inner{max-width:860px;margin:0 auto;}
+.who-grid{display:grid;grid-template-columns:auto 1fr;gap:24px;background:var(--bg);border-radius:14px;padding:32px;margin-top:20px;align-items:start;}
+.avatar{width:64px;height:64px;border-radius:50%;background:var(--green-light);display:flex;align-items:center;justify-content:center;font-family:'DM Serif Display',serif;font-size:22px;color:var(--green-dark);flex-shrink:0;}
+.area-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px;}
+.area-card{border:1px solid var(--border);border-radius:12px;overflow:hidden;}
+.area-img{height:140px;display:flex;align-items:center;justify-content:center;}
+.area-body{padding:16px 18px;}
+.area-link{font-size:12px;color:var(--green);text-decoration:none;display:block;margin-top:8px;}
+.svc-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;}
+.svc-pill{font-size:12px;background:var(--green-light);color:var(--green-dark);border-radius:999px;padding:5px 14px;text-decoration:none;}
+.region-img{background:linear-gradient(135deg,#0C3040,#1D7A9E);border-radius:14px;height:300px;display:flex;align-items:center;justify-content:center;margin-top:20px;}
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px;}
+.review-card{border:1px solid var(--border);border-radius:12px;padding:16px;}
+.rn{font-size:13px;font-weight:500;}.rl{font-size:11px;color:var(--muted);margin-bottom:6px;}.rt{font-size:12px;color:var(--muted);font-style:italic;line-height:1.5;}
+.stars{color:#BA7517;font-size:12px;}
+.plat-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px;}
+.plat{font-size:12px;background:var(--bg);border-radius:8px;padding:6px 14px;color:var(--muted);}
+.faq-item{border-bottom:1px solid var(--border);}
+.faq-btn{width:100%;text-align:left;padding:16px 0;background:none;border:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;color:var(--text);}
+.faq-icon{width:22px;height:22px;border-radius:50%;background:var(--green-light);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:transform .3s;}
+.faq-icon.open{transform:rotate(45deg);background:var(--green);color:white;}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height .35s ease;}
+.faq-answer.open{max-height:300px;}
+.faq-ai{padding:0 0 14px;font-size:13px;color:var(--muted);line-height:1.7;}
+.cro{background:var(--green-dark);padding:36px 48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;}
+.cro p{color:white;font-size:15px;font-weight:500;margin:0;}
+.cro span{font-size:13px;color:rgba(255,255,255,0.65);display:block;margin-top:2px;}
+.btn-w{background:white;color:var(--green-dark);border:none;border-radius:8px;padding:12px 24px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;cursor:pointer;}
+.inline-cro{background:var(--bg);border:2px solid var(--green);border-radius:14px;padding:28px 32px;margin:40px 0;display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px;}
+.inline-cro h4{font-family:'DM Serif Display',serif;font-size:20px;margin-bottom:4px;}
+.inline-cro p{font-size:13px;color:var(--muted);margin:0;}
+.btn-g{background:var(--green);color:white;border:none;border-radius:8px;padding:12px 24px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;cursor:pointer;}
+.final-cta{background:linear-gradient(135deg,#0a2018,#0F6E56);padding:64px 48px;text-align:center;}
+.final-cta h2{color:white;font-family:'DM Serif Display',serif;font-size:36px;margin-bottom:12px;}
+.final-cta p{color:rgba(255,255,255,0.75);font-size:15px;max-width:520px;margin:0 auto 28px;}
+.final-nap{font-size:12px;color:rgba(255,255,255,0.4);margin-top:20px;}
+</style>
+</head>
+<body>
+<div class="topnav"><div class="logo">Top Notch Roofing</div><div class="nav-links"><span>Services</span><span>Service Areas</span><span>About</span><span>Resources</span><span>Contact</span></div></div>
+
+<div class="hero">
+  <svg style="position:absolute;bottom:0;left:0;width:100%;opacity:0.06;z-index:1;" viewBox="0 0 1200 500" preserveAspectRatio="none"><polygon points="0,500 200,150 400,320 600,80 800,250 1000,120 1200,280 1200,500" fill="white"/></svg>
+  <div class="hero-inner" style="position:relative;z-index:2;">
+    <p class="breadcrumb">Fraser Valley, BC</p>
+    <h1>Trusted roofing across the Fraser Valley</h1>
+    <p>Top Notch Roofing has been protecting Fraser Valley homes and businesses for over 20 years. Family-owned and locally operated, we serve communities from Abbotsford to Hope — and everywhere in between. We're not a franchise. We live here.</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Who we are</h2>
+  <p class="lead">A family business built on the Fraser Valley — not a franchise operation that parachutes in for jobs.</p>
+  <div class="who-grid">
+    <div class="avatar">MH</div>
+    <div>
+      <p>Top Notch Roofing was founded in 2005 by Mike Hargreaves, a Fraser Valley native who started roofing in Chilliwack and has never left. What started as a two-person operation has grown into a full crew serving three service areas across the valley — but the approach hasn't changed. Mike still does the final walkthrough on every job, his licence number is on every warranty document, and his family still lives in the community his company serves.</p>
+      <p>We are BC Licensed Roofer #R-48821, fully WCB insured, and every installation carries a 25-year workmanship warranty backed by a real local business — not a call centre in another city. Over 400 completed roofing projects across the Fraser Valley. 4.9 Google stars from 187 homeowners across Chilliwack, Abbotsford, and Hope.</p>
+    </div>
+  </div>
+</div>
+
+<div class="cro"><div><p>Serving the Fraser Valley for 20+ years</p><span>Free estimates · Local crews · 25-year workmanship warranty</span></div><button class="btn-w">Get a free estimate →</button></div>
+
+<div class="section">
+  <h2>Where we work in the Fraser Valley</h2>
+  <p class="lead">We operate across three service areas in the Fraser Valley. Each area has a dedicated team and a dedicated page — click through to find specific services and local information for your community.</p>
+  <div class="area-grid">
+    <div class="area-card">
+      <div class="area-img" style="background:linear-gradient(135deg,#0a2018,#1D9E75);">
+        <svg width="56" height="56" viewBox="0 0 56 56" fill="none"><path d="M8 34L28 12L48 34V50H8V34Z" stroke="white" stroke-width="1.5" fill="rgba(255,255,255,0.12)"/><line x1="18" y1="34" x2="18" y2="50" stroke="rgba(255,255,255,0.4)" stroke-width="1.2"/><line x1="28" y1="34" x2="28" y2="50" stroke="rgba(255,255,255,0.4)" stroke-width="1.2"/><line x1="38" y1="34" x2="38" y2="50" stroke="rgba(255,255,255,0.4)" stroke-width="1.2"/></svg>
+      </div>
+      <div class="area-body"><h3>Chilliwack</h3><p style="font-size:13px;color:var(--muted);margin-bottom:8px;">Our home base. 20+ years roofing Chilliwack — from Sardis to Promontory to Ryder Lake. Our most experienced local crew.</p><a class="area-link" href="#">Explore Chilliwack roofing →</a></div>
+    </div>
+    <div class="area-card">
+      <div class="area-img" style="background:linear-gradient(135deg,#0a1a2a,#185FA5);">
+        <svg width="56" height="56" viewBox="0 0 56 56" fill="none"><path d="M8 34L28 12L48 34V50H8V34Z" stroke="white" stroke-width="1.5" fill="rgba(255,255,255,0.12)"/><rect x="22" y="36" width="12" height="14" rx="1" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/></svg>
+      </div>
+      <div class="area-body"><h3>Abbotsford</h3><p style="font-size:13px;color:var(--muted);margin-bottom:8px;">Full residential and commercial service across Abbotsford — city centre to Sumas Mountain. Strong GBP presence and fast response.</p><a class="area-link" href="#">Explore Abbotsford roofing →</a></div>
+    </div>
+    <div class="area-card">
+      <div class="area-img" style="background:linear-gradient(135deg,#2a1a0a,#854F0B);">
+        <svg width="56" height="56" viewBox="0 0 56 56" fill="none"><path d="M8 34L28 8L48 34V50H8V34Z" stroke="white" stroke-width="1.5" fill="rgba(255,255,255,0.12)"/><path d="M28 8L28 34" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="28" cy="8" r="4" fill="rgba(255,255,255,0.4)"/></svg>
+      </div>
+      <div class="area-body"><h3>Hope</h3><p style="font-size:13px;color:var(--muted);margin-bottom:8px;">Serving Hope and surrounding communities. We know the elevated snowloads and alpine conditions specific to this area.</p><a class="area-link" href="#">Explore Hope roofing →</a></div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="padding-top:0;">
+  <h2>What we do across the region</h2>
+  <p>We offer the full range of residential and commercial roofing services across all three Fraser Valley service areas. Click any service to explore it in more detail.</p>
+  <div class="svc-pills">
+    <a class="svc-pill" href="#">Roof replacement</a><a class="svc-pill" href="#">Roof repairs</a><a class="svc-pill" href="#">Metal roofing</a><a class="svc-pill" href="#">Inspections</a><a class="svc-pill" href="#">Gutters & drainage</a><a class="svc-pill" href="#">Storm damage</a><a class="svc-pill" href="#">Moss treatment</a><a class="svc-pill" href="#">Commercial roofing</a>
+  </div>
+</div>
+
+<div class="section-full" style="background:var(--bg);">
+  <div class="inner">
+    <h2>Why Fraser Valley roofs need a local expert</h2>
+    <p class="lead">The Fraser Valley has a climate unlike most of BC — and your roofer needs to understand it.</p>
+    <p>The valley sits bordered by mountains to the north and east, creating a corridor that channels Pacific moisture into some of the highest annual rainfall in the province. The valley floor near the Fraser River deals with relentless moisture-driven moss and algae. Higher-elevation properties in Hope and Ryder Lake face significant snowloads, ice damming, and freeze-thaw cycles that destroy roofs that aren't properly specified for the load.</p>
+    <p>Beyond the rainfall, the Fraser Valley sees wind events — valley corridor winds from the east that create uplift pressures on roofs built to standard coastal specifications. We've assessed hundreds of roofs after valley wind storms and know exactly what to look for and how to specify installations that hold through them.</p>
+    <p>A roofer from outside the region doesn't carry this knowledge. We do — and it shows in both our installation standards and our warranty call rate, which is near zero.</p>
+    <div class="region-img">
+      <svg width="100" height="80" viewBox="0 0 200 120" fill="none"><path d="M10 100L60 30L110 70L160 20L190 50V110H10V100Z" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/><path d="M0 90Q30 60 60 75Q90 90 120 55Q150 20 200 40" stroke="#FAC775" stroke-width="2" fill="none" opacity="0.7"/><circle cx="60" cy="30" r="4" fill="rgba(255,255,255,0.6)"/><circle cx="160" cy="20" r="4" fill="rgba(255,255,255,0.6)"/><text x="55" y="115" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="8" font-family="sans-serif">CHILLIWACK</text><text x="155" y="115" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="8" font-family="sans-serif">HOPE</text></svg>
+    </div>
+  </div>
+</div>
+
+<div class="cro"><div><p>Ready to get started? We serve all of the Fraser Valley.</p><span>Call (604) 555-0194 or book a free estimate below.</span></div><button class="btn-w">Get a free estimate →</button></div>
+
+<div class="section">
+  <h2>What Fraser Valley homeowners say</h2>
+  <div class="plat-row"><span class="plat">Google ★ 4.9 · 187 reviews</span><span class="plat">BBB A+</span><span class="plat">HomeStars 9.8/10 Top Pro 2024</span></div>
+  <div class="review-grid">
+    <div class="review-card"><div class="stars">★★★★★</div><p class="rn">Dave K.</p><p class="rl">Promontory Heights, Chilliwack</p><p class="rt">"Best roofing investment we've made. Zero issues through the entire winter."</p></div>
+    <div class="review-card"><div class="stars">★★★★★</div><p class="rn">James P.</p><p class="rl">Abbotsford</p><p class="rt">"On time, on budget, cleaned up perfectly. Exactly what you want from a local crew."</p></div>
+    <div class="review-card"><div class="stars">★★★★★</div><p class="rn">Carol M.</p><p class="rl">Hope</p><p class="rt">"They understood our snowload situation and specified the right system. No one else even mentioned it."</p></div>
+  </div>
+</div>
+
+<div class="section" style="padding-top:0;">
+  <div class="inline-cro"><div><h4>Not sure which service area you're in?</h4><p>Call us at (604) 555-0194 and we'll confirm your area and get you booked for a free estimate right away.</p></div><button class="btn-g">Call (604) 555-0194</button></div>
+  <h2>Fraser Valley roofing questions</h2>
+  <div id="faq-wrap" style="margin-top:20px;">
+    <div class="faq-item"><button class="faq-btn" onclick="toggleFaq(this)">How much does a roof replacement cost in the Fraser Valley?<span class="faq-icon open">+</span></button><div class="faq-answer open"><div class="faq-ai">Roof replacement in the Fraser Valley typically ranges from $8,000–$18,000 for asphalt shingles and $18,000–$35,000 for metal roofing on a standard residential home. Costs vary by city, roof size, pitch, and material. We provide free written estimates across all three service areas — Chilliwack, Abbotsford, and Hope.</div></div></div>
+    <div class="faq-item"><button class="faq-btn" onclick="toggleFaq(this)">What roofing is best for Fraser Valley weather?<span class="faq-icon">+</span></button><div class="faq-answer"><div class="faq-ai">Metal roofing — particularly standing seam — performs best in the Fraser Valley's high-rainfall environment. It sheds moss naturally, handles freeze-thaw cycles, and lasts 50+ years versus 15–20 for asphalt. For budget-conscious homeowners, a quality architectural shingle with proper ventilation and annual maintenance is a solid alternative.</div></div></div>
+    <div class="faq-item"><button class="faq-btn" onclick="toggleFaq(this)">Do you serve rural and agricultural properties?<span class="faq-icon">+</span></button><div class="faq-answer"><div class="faq-ai">Yes — we regularly work on acreages, farms, and agricultural buildings throughout Greendale, Atchelitz, Rosedale, and the rural areas around Hope. We're familiar with agricultural roofing systems, larger span requirements, and the drainage considerations specific to farm properties in the Fraser Valley.</div></div></div>
+  </div>
+</div>
+
+<div class="final-cta">
+  <h2>Serving the Fraser Valley for 20+ years</h2>
+  <p>Find your area and get a free written estimate from our local crew. Same-day response. No obligation.</p>
+  <button class="btn-w">Get a free estimate →</button>
+  <p class="final-nap">Top Notch Roofing · 4421 Vedder Road, Chilliwack BC V2R 4E3 · (604) 555-0194</p>
+</div>
+
+<script>function toggleFaq(btn){const a=btn.nextElementSibling,i=btn.querySelector('.faq-icon'),o=a.classList.contains('open');document.querySelectorAll('.faq-answer.open').forEach(x=>x.classList.remove('open'));document.querySelectorAll('.faq-icon.open').forEach(x=>x.classList.remove('open'));if(!o){a.classList.add('open');i.classList.add('open');}}</script>
+</body></html>
