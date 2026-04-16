@@ -29,6 +29,60 @@
   opacity:1;
   transform:translateY(-4px);
 }
+
+  /* CARDS */
+.nap-cards {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  max-width:900px;
+  margin:0 auto 40px;
+}
+
+.nap-card {
+  background:white;
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:24px;
+  text-align:center;
+  box-shadow:0 6px 18px rgba(0,0,0,0.06);
+  transition:transform .2s ease;
+}
+
+.nap-card:hover {
+  transform:translateY(-4px);
+}
+
+.nap-icon {
+  font-size:20px;
+  margin-bottom:8px;
+}
+
+.nap-card h4 {
+  font-size:14px;
+  margin-bottom:6px;
+}
+
+.nap-card p {
+  font-size:13px;
+  color:var(--muted);
+}
+
+/* WIDE MAP */
+.nap-map-wide {
+  max-width:900px;
+  margin:0 auto;
+  border-radius:14px;
+  overflow:hidden;
+  border:1px solid var(--border);
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.nap-map-wide iframe {
+  width:100%;
+  height:320px;
+  border:0;
+}
   
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 :root{--green:#1D9E75;--green-dark:#0F6E56;--green-light:#E1F5EE;--gold:#BA7517;--text:#1a1a1a;--muted:#5a5a5a;--border:#e5e5e5;--bg:#f9f9f7;}
@@ -254,48 +308,52 @@ p.body{font-size:14px;color:var(--muted);line-height:1.8;margin-bottom:14px;}
     </p>
   </div>
 
-<!-- NAP SECTION (FIXED LAYOUT) -->
-<div class="section" style="padding-top:60px;padding-bottom:60px;">
+<!-- PREMIUM NAP SECTION (LIKE SCREENSHOT 2) -->
+<div class="section section-alt" style="text-align:center;">
 
-  <div class="nap-grid">
+  <h2 class="sec">Serving Chilliwack & the Fraser Valley</h2>
 
-    <!-- LEFT SIDE -->
-    <div class="nap-left">
-      <h2 class="sec">Expert Metal Roofing Across Chilliwack</h2>
+  <p class="lead" style="max-width:700px;margin:0 auto 32px;">
+    Top Notch Roofing is based in Chilliwack, BC, delivering professional metal roofing services across the Fraser Valley. 
+    Our local team handles installations, replacements, and repairs with a focus on long-term performance and clean workmanship.
+  </p>
 
-      <p class="body">
-        Top Notch Roofing proudly provides professional metal roofing services throughout all areas of Chilliwack. 
-        Our Chilliwack location serves as the main hub for the Fraser Valley, allowing us to respond quickly and 
-        complete projects efficiently across the region.
-      </p>
+  <!-- CONTACT CARDS -->
+  <div class="nap-cards">
 
-      <ul class="nap-list">
-        <li>Downtown Chilliwack</li>
-        <li>Sardis</li>
-        <li>Promontory</li>
-        <li>Vedder Crossing</li>
-        <li>Garrison Crossing</li>
-        <li>Fairfield Island</li>
-      </ul>
-
-      <div class="nap-info">
-        <p><strong>Top Notch Roofing</strong></p>
-        <p>10665 Standeven Rd, Chilliwack, BC V2P 6H4</p>
-        <p>(778) 200-7954</p>
-        <p>info@topnotchroof.ca</p>
-        <p>Mon – Fri · 7:00 am – 5:00 pm</p>
-      </div>
-
+    <div class="nap-card">
+      <div class="nap-icon">✉️</div>
+      <h4>Email</h4>
+      <p>info@topnotchroof.ca</p>
     </div>
 
-    <!-- RIGHT SIDE (SQUARE MAP) -->
-    <div class="nap-map">
-      <iframe 
-        src="https://www.google.com/maps?q=10665+Standeven+Rd,+Chilliwack,+BC&output=embed"
-        loading="lazy">
-      </iframe>
+    <div class="nap-card">
+      <div class="nap-icon">📞</div>
+      <h4>Phone</h4>
+      <p>(778) 200-7954</p>
     </div>
 
+    <div class="nap-card">
+      <div class="nap-icon">📍</div>
+      <h4>Office</h4>
+      <p>10665 Standeven Rd<br>Chilliwack, BC</p>
+    </div>
+
+  </div>
+
+  <!-- MAP -->
+  <div class="nap-map-wide">
+    <iframe 
+      src="https://www.google.com/maps?q=10665+Standeven+Rd,+Chilliwack,+BC&output=embed"
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <!-- CTA -->
+  <div style="margin-top:24px;">
+    <a href="#" class="btn-green" style="display:inline-block;padding:12px 28px;">
+      Get Directions →
+    </a>
   </div>
 
 </div>
