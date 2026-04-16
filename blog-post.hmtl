@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Spot Storm Damage on Your Roof in the Fraser Valley | Top Notch Roofing</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{--green:#1D9E75;--green-dark:#0F6E56;--green-light:#E1F5EE;--text:#1a1a1a;--muted:#5a5a5a;--border:#e5e5e5;--bg:#f9f9f7;}
+body{font-family:'DM Sans',sans-serif;color:var(--text);background:#fff;}
+nav{background:#fff;border-bottom:1px solid var(--border);padding:14px 40px;display:flex;justify-content:space-between;align-items:center;}
+.logo{font-family:'DM Serif Display',serif;font-size:20px;color:var(--green-dark);}
+.nav-links{display:flex;gap:24px;font-size:13px;color:var(--muted);}
+.hero{background:linear-gradient(135deg,#0a2018,#1a4a35);padding:64px 40px;color:white;}
+.hero-inner{max-width:780px;margin:0 auto;}
+.cat-tag{display:inline-block;font-size:11px;background:rgba(255,255,255,0.15);color:white;border-radius:999px;padding:4px 14px;margin-bottom:16px;}
+h1{font-family:'DM Serif Display',serif;font-size:40px;color:white;line-height:1.2;margin-bottom:16px;}
+.meta{font-size:12px;color:rgba(255,255,255,0.6);display:flex;gap:16px;flex-wrap:wrap;}
+.layout{display:grid;grid-template-columns:1fr 260px;gap:48px;max-width:1060px;margin:0 auto;padding:48px 40px;align-items:start;}
+.sidebar{position:sticky;top:24px;}
+.toc-card{background:var(--bg);border-radius:12px;padding:20px;}
+.toc-card h4{font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:12px;}
+.toc-card a{display:block;font-size:12px;color:var(--muted);text-decoration:none;padding:4px 0;line-height:1.4;}
+.toc-card a:hover{color:var(--green);}
+.cta-sidebar{background:var(--green-dark);border-radius:12px;padding:20px;margin-top:16px;text-align:center;}
+.cta-sidebar h4{font-family:'DM Serif Display',serif;font-size:16px;color:white;margin-bottom:8px;}
+.cta-sidebar p{font-size:12px;color:rgba(255,255,255,0.7);margin-bottom:14px;}
+.btn-w{background:white;color:var(--green-dark);border:none;border-radius:8px;padding:10px 18px;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:500;cursor:pointer;width:100%;}
+h2{font-family:'DM Serif Display',serif;font-size:26px;margin:36px 0 14px;}
+h3{font-size:16px;font-weight:500;margin:22px 0 8px;}
+p{color:var(--muted);font-size:14px;line-height:1.8;margin-bottom:14px;}
+.intro-box{background:var(--bg);border-left:3px solid var(--green);padding:16px 20px;border-radius:0 8px 8px 0;margin-bottom:28px;}
+.intro-box p{font-size:15px;color:var(--text);margin:0;}
+.checklist{list-style:none;margin:12px 0;display:flex;flex-direction:column;gap:8px;}
+.checklist li{font-size:14px;color:var(--muted);display:flex;gap:10px;align-items:flex-start;line-height:1.6;}
+.check-icon{width:20px;height:20px;border-radius:50%;background:var(--green-light);border:1.5px solid var(--green);flex-shrink:0;margin-top:2px;}
+.local-box{background:#EAF3DE;border-radius:10px;padding:18px 22px;margin:24px 0;}
+.local-box h3{color:#27500A;font-size:14px;margin:0 0 6px;}
+.local-box p{color:#3B6D11;font-size:13px;margin:0;}
+.img-block{background:linear-gradient(135deg,#0a2018,#1D9E75);border-radius:12px;height:240px;display:flex;align-items:center;justify-content:center;margin:24px 0;}
+.inline-cro{background:var(--bg);border:2px solid var(--green);border-radius:12px;padding:24px;margin:32px 0;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px;}
+.inline-cro h4{font-family:'DM Serif Display',serif;font-size:18px;margin-bottom:4px;}
+.inline-cro p{font-size:13px;color:var(--muted);margin:0;}
+.btn-g{background:var(--green);color:white;border:none;border-radius:8px;padding:12px 22px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;cursor:pointer;white-space:nowrap;}
+.author-block{background:var(--bg);border-radius:12px;padding:20px;display:flex;gap:16px;align-items:flex-start;margin:32px 0;}
+.av{width:50px;height:50px;border-radius:50%;background:var(--green-light);display:flex;align-items:center;justify-content:center;font-family:'DM Serif Display',serif;font-size:18px;color:var(--green-dark);flex-shrink:0;}
+.an{font-size:13px;font-weight:500;margin-bottom:2px;}
+.ab{font-size:12px;color:var(--muted);}
+.cta-box{background:linear-gradient(135deg,#0a2018,#0F6E56);border-radius:12px;padding:32px;text-align:center;margin-top:32px;}
+.cta-box h3{font-family:'DM Serif Display',serif;font-size:22px;color:white;margin-bottom:8px;}
+.cta-box p{color:rgba(255,255,255,0.75);font-size:13px;margin-bottom:16px;}
+</style>
+</head>
+<body>
+<nav><div class="logo">Top Notch Roofing</div><div class="nav-links"><span>Services</span><span>Service Areas</span><span>About</span><span>Blog</span><span>Contact</span></div></nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <span class="cat-tag">Blog · Storm damage</span>
+    <h1>How to spot storm damage on your roof in the Fraser Valley</h1>
+    <div class="meta"><span>By Mike Hargreaves · Owner, Top Notch Roofing</span><span>Published March 12, 2025</span><span>10 min read</span></div>
+  </div>
+</div>
+
+<div class="layout">
+  <div>
+    <div class="intro-box"><p>After a storm in Chilliwack, Abbotsford, or Hope, damage isn't always obvious from the ground. This guide covers exactly what to look for — and when to call a professional before small damage becomes a major repair bill.</p></div>
+
+    <p>Fraser Valley storms hit fast and hard. Valley wind events, heavy rain, and occasional hail leave behind damage that can go unnoticed for weeks — until water starts showing up inside your ceiling. The challenge is that most <a href="#" style="color:var(--green);">storm damage on Chilliwack roofs</a> is subtle. You won't see it from the street. You need to know what to look for, where to look, and when the damage warrants a professional assessment versus a DIY fix.</p>
+    <p>This guide is written specifically for Fraser Valley homeowners — because our storms are different from coastal storms, and our roofs experience conditions that homeowners in drier parts of BC simply don't deal with. After 18 years of post-storm inspections across Chilliwack, Abbotsford, and Hope, here's what we know.</p>
+
+    <div class="img-block">
+      <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><path d="M10 50L40 15L70 50V70H10V50Z" stroke="white" stroke-width="2" fill="rgba(255,255,255,0.1)"/><path d="M25 50V70M40 50V70M55 50V70" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/><path d="M5 30Q15 15 25 25Q35 35 40 20" stroke="#FAC775" stroke-width="2" fill="none" opacity="0.8"/><circle cx="40" cy="20" r="3" fill="#FAC775" opacity="0.7"/></svg>
+    </div>
+
+    <h2>What does wind damage look like on a roof?</h2>
+    <p>Wind is the most common cause of roof damage in the Fraser Valley, particularly in Chilliwack where valley corridor winds can reach 80–100km/h in winter storms. The Vedder Mountain corridor channels southeast winds directly into Promontory and the eastern hillside neighbourhoods — creating uplift pressures on roofs that standard coastal installation practices don't always account for.</p>
+    <p>The most common wind damage patterns we see on Chilliwack roofs:</p>
+    <ul class="checklist">
+      <li><span class="check-icon"></span>Missing shingles — visible patches where the roof deck is exposed to rain</li>
+      <li><span class="check-icon"></span>Lifted shingle edges — shingles that have broken their seal tab adhesive but haven't blown off yet. These are invisible from the ground but allow water infiltration every time it rains.</li>
+      <li><span class="check-icon"></span>Damaged ridge caps — the peak of the roof is the most exposed and almost always the first to show wind damage</li>
+      <li><span class="check-icon"></span>Debris impact damage — branches from Promontory and Rosedale properties with significant tree cover frequently cause punctures and accelerated wear zones</li>
+      <li><span class="check-icon"></span>Flashing displacement — wind can shift chimney, skylight, and vent pipe flashing enough to create a water entry point without any visible shingle damage</li>
+    </ul>
+
+    <div class="inline-cro">
+      <div><h4>Think your roof took wind damage?</h4><p>Book a free storm damage inspection — we provide a written report for insurance purposes.</p></div>
+      <button class="btn-g">Book free inspection →</button>
+    </div>
+
+    <h2>How do you know if hail has damaged your roof?</h2>
+    <p>Hail damage is subtle and one of the most commonly missed types of roof damage in the Fraser Valley. From the ground it can look like absolutely nothing. From an inspection it tells a completely different story — and your insurance company will want the written evidence.</p>
+    <p>On asphalt shingles, hail creates small circular dents where granules have been knocked off. These spots appear dark and slightly shiny compared to the surrounding shingle surface. Over time, the exposed asphalt oxidizes and cracks — accelerating the aging of the entire roof by years, and voiding some manufacturer warranties that require granule coverage to remain intact.</p>
+    <p>Metal roofing shows hail damage differently — as visible dents on the panel surface. On standing seam systems these are largely cosmetic and don't affect performance. On older corrugated systems, hail can crack sealant at fastener points and create leak pathways. We assess the specific system when we inspect.</p>
+
+    <h2>Can a roof leak be caused by storm damage even if I don't see missing shingles?</h2>
+    <p>Yes — and this is one of the most frustrating patterns we see across Chilliwack, Abbotsford, and Hope. A homeowner notices a water stain on their ceiling in January and doesn't connect it with the wind storm that happened in November. The gap is long enough that they assume it's a new problem — but the cause is almost always the storm.</p>
+    <p>Lifted flashing, cracked sealant around penetrations, and damaged valley metal often take weeks before water finds its way through and becomes visible inside. The roof can look completely intact from the ground while admitting water at every single rain event. This is why a professional inspection after any significant Fraser Valley storm is worth the call — even if you can't see anything obviously wrong.</p>
+
+    <div class="local-box">
+      <h3>Fraser Valley homeowner alert — valley wind events</h3>
+      <p>Chilliwack's valley corridor wind events are different from coastal storms. The combination of high wind speed and sudden direction shift — often from southeast to northwest within a few hours — creates uplift patterns on roofs that weren't engineered for it. Older homes in the Chilliwack city centre and Vedder area built before 2000 are most vulnerable to this specific storm profile. If you're in one of these areas and experienced a significant wind event, a precautionary inspection is worthwhile even with no visible damage.</p>
+    </div>
+
+    <h2>What should I do immediately after a storm damages my roof?</h2>
+    <p>The most important thing is not to go on the roof yourself — especially after a wind or rain event when surfaces are wet and structurally compromised areas can't be identified from above. Here's the right sequence:</p>
+    <ul class="checklist">
+      <li><span class="check-icon"></span>Walk the perimeter of your home and photograph everything you can see from the ground — missing shingles, debris, bent gutters, anything displaced</li>
+      <li><span class="check-icon"></span>Check your attic for daylight penetration or any new moisture on the decking — a flashlight and 60 seconds will tell you a lot</li>
+      <li><span class="check-icon"></span>Note the date and approximate time of the storm event — your insurance company will need this for any claim</li>
+      <li><span class="check-icon"></span>If there's active water ingress, place buckets and document it on video — this is useful for your claim</li>
+      <li><span class="check-icon"></span>Call a licensed roofer for a written inspection report before contacting your insurer — arriving with a written professional assessment puts you in a much stronger position</li>
+    </ul>
+
+    <h2>When should I call a professional for storm damage in Chilliwack?</h2>
+    <p>Call a professional roofer if any of the following are true after a Fraser Valley storm: you can see missing or visibly damaged shingles from the ground; you find granules in significant quantities in your gutters or downspout exit points; you notice any water staining on interior ceilings or attic decking; you heard unusual sounds during the storm (impact sounds, cracking, prolonged creaking); or your home is over 15 years old and went through a significant wind event.</p>
+    <p>If you're planning to make an insurance claim, a written professional inspection report from a BC licensed roofer is almost always required. We provide these at no charge as part of our free inspection service for Chilliwack, Abbotsford, and Hope homeowners.</p>
+
+    <div class="author-block">
+      <div class="av">MH</div>
+      <div><p class="an">Mike Hargreaves — Owner, Top Notch Roofing</p><p class="ab">Mike has been inspecting and repairing storm-damaged roofs across the Fraser Valley for 18 years. BC Licensed Roofer #R-48821. He wrote this guide based on the patterns he sees every winter across Chilliwack, Abbotsford, and Hope.</p></div>
+    </div>
+
+    <div class="cta-box">
+      <h3>Think your roof took storm damage?</h3>
+      <p>Book a free storm damage inspection in Chilliwack, Abbotsford, or Hope. Written report included. We work with all major BC insurance providers.</p>
+      <button class="btn-w">Book a free storm damage inspection →</button>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="toc-card">
+      <h4>In this article</h4>
+      <a href="#">What does wind damage look like?</a>
+      <a href="#">How to spot hail damage</a>
+      <a href="#">Can a leak come from storm damage?</a>
+      <a href="#">What to do immediately after a storm</a>
+      <a href="#">When to call a professional</a>
+    </div>
+    <div class="cta-sidebar">
+      <h4>Free storm inspection</h4>
+      <p>Written report for insurance. Same-day response. All of Fraser Valley.</p>
+      <button class="btn-w">Book now →</button>
+    </div>
+  </div>
+</div>
+</body></html>
